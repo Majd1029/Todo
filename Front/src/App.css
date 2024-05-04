@@ -1,0 +1,58 @@
+body{
+  background-image: url('./images/bg.avif');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.App {
+  border: 1px solid #3d3d3d;
+  margin: 50px 30px;
+  padding: 25px 15px;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50px;
+}
+
+.App h2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.to-do-container {
+  display: flex;
+  flex-direction: column;
+}
+.to-do-container ul .item{
+  background-color: rgb(255, 174, 0);
+  padding: 5px;
+  border-radius: 20px;
+}
+.to-do-container ul li {
+  width: 170px;
+  overflow-wrap: break-word;
+  list-style-type: "👉";
+  cursor: pointer;
+
+}
+.to-do-container button{
+  font-weight: bold;
+  color: rgb(255, 174, 0);
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+
+
